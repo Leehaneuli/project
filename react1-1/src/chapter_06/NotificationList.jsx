@@ -57,6 +57,7 @@ class NotificationList extends React.Component {
                 {this.state.notifications.map((notification) => {
                     return (
                         <Notification
+                            //map함수 사용을 위해 유일한 키를 증명하기 위해 key를 추가해야 함
                             key={notification.id}
                             id={notification.id}
                             message={notification.message}
