@@ -9,17 +9,16 @@ import Tooggle from "./Toggle.jsx";
 import MyButton from "./MyButton.jsx";
 import LoginControl from "./LoginControl.jsx";
 import MainPage from "./MainPage.jsx";
+import LandingPage from "./chapter_09/LandingPage.jsx";
+import NumberList from "./NumberList.jsx";
+import NameForm from "./NameForm.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* <FocusButton /> */}
-      {/* <Counter /> */}
-      {/* <Accommodate /> */}
-      {/* <Tooggle/> */}
-      {/* <MyButton /> */}
-      {/* <LoginControl /> */}
-      <MainPage/>
+      {/* <LandingPage /> */}
+      {/* <NumberList /> */}
+      <NameForm />
     </div>
   );
 }
