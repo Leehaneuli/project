@@ -12,13 +12,14 @@ import MainPage from "./MainPage.jsx";
 import LandingPage from "./chapter_09/LandingPage.jsx";
 import NumberList from "./NumberList.jsx";
 import NameForm from "./NameForm.jsx";
+import SignUp from "./chapter_11/SignUp.jsx";
+import BoilingVerdict from "./BoilingVerdict.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
-      {/* <NumberList /> */}
-      <NameForm />
+      {/* <SignUp /> */}
+      <BoilingVerdict celsius="120" />
     </div>
   );
 }

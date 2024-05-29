@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
-function SignUp(props) {
+export default function SignUp(props) {
     const [name, setName] = useState("");
-    const [gender, setGender] = useState("남자");
+    const [gender, setGender] = useState("");
+    const [test, setTEst] = useState("");
 
     const handleChangeName = (event) => {
         setName(event.target.value);
@@ -36,4 +37,4 @@ function SignUp(props) {
     );
 }
 
-export default SignUp;
+
