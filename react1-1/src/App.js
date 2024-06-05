@@ -14,12 +14,13 @@ import NumberList from "./NumberList.jsx";
 import NameForm from "./NameForm.jsx";
 import SignUp from "./chapter_11/SignUp.jsx";
 import BoilingVerdict from "./BoilingVerdict.jsx";
+import Calculator from "./chapter_12/Calculator.jsx";
+import WelcomeDialog from "./WelcomeDialog.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* <SignUp /> */}
-      <BoilingVerdict celsius="120" />
+      <WelcomeDialog/>
     </div>
   );
 }
