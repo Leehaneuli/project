@@ -16,11 +16,17 @@ import SignUp from "./chapter_11/SignUp.jsx";
 import BoilingVerdict from "./BoilingVerdict.jsx";
 import Calculator from "./chapter_12/Calculator.jsx";
 import WelcomeDialog from "./WelcomeDialog.jsx";
+import SplitPane from "./SplitPane";
+import Card from "./chapter_13/Card.jsx";
+import ProfileCard from "./chapter_13/ProfileCard.jsx";
 
 function App() {
   return (
     <div className="App">
-      <WelcomeDialog/>
+      {/* <WelcomeDialog/> */}
+      {/* <SplitPane/> */}
+      {/* <Card/> */}
+      <ProfileCard/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 
-function MainContent(props) {
+export default function MainContent(props) {
     const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
@@ -14,10 +14,8 @@ function MainContent(props) {
                 color: theme == "light" ? "black" : "white",
             }}
         >
-            <p>안녕하세요, 테마 변경이 가능한 웹사이트 입니다.</p>
+            <p>안녕하세요, 테마 변경이 가능합니다.</p>
             <button onClick={toggleTheme}>테마 변경</button>
         </div>
     );
-}
-
-export default MainContent;
+} 
