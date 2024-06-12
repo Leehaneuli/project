@@ -26,7 +26,8 @@ function App() {
       {/* <WelcomeDialog/> */}
       {/* <SplitPane/> */}
       {/* <Card/> */}
-      <ProfileCard/>
+      {/* <ProfileCard/> */}
+      <MainPage/>
     </div>
   );
 }
